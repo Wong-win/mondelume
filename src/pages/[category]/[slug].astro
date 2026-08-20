@@ -39,7 +39,7 @@ const related = (await getCollection('articles', ({ data, id }) => data.category
 	{related.length > 0 && (
 		<section class="related shell section-pad">
 			<div class="section-heading"><p>Continuer</p><h2>Dans le même univers</h2></div>
-			<div class="related-grid">{related.map((item, index) => <ArticleCard article={item} index={index + 1} compact />)}</div>
+			<div class="related-grid">{related.map((item, index) => <ArticleCard article={item} index={index + 1} />)}</div>
 		</section>
 	)}
 </BaseLayout>
