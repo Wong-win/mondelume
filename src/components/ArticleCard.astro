@@ -1,0 +1,32 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { categoryMap } from '../data/categories';
+
+interface Props {
+	article: CollectionEntry<'articles'>;
+	index?: number;
+	compact?: boolean;
+	home?: boolean;
+}
+
+const { article, index = 1, compact = false, home = false } = Astro.props;
+const category = categoryMap[article.data.category];
+const date = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(article.data.publishedAt);
+const cardImage = article.data.coverImage.replace('w=1800', compact ? 'w=600' : home ? 'w=720' : 'w=900');
+const imageWidth = compact ? 600 : home ? 720 : 900;
+const imageHeight = home ? 480 : compact ? 750 : 1125;
+---
+
+<article class:list={['article-card', { compact, home }]}>
+	<div class="card-art-wrap">
+		<a class="card-art-link" href={`/${category.slug}/${article.id}/`} aria-label={`Lire : ${article.data.title}`}>
+			<img src={cardImage} alt={article.data.coverAlt} width={imageWidth} height={imageHeight} loading="lazy" decoding="async" />
+		</a>
+	</div>
+	<div class="card-body">
+		<p class="eyebrow"><a href={`/${category.slug}/`}>{category.label}</a><span>{date}</span></p>
+		<h3><a href={`/${category.slug}/${article.id}/`}>{article.data.title}</a></h3>
+		{!compact && !home && <p class="dek">{article.data.dek}</p>}
+		<p class="read-time">{article.data.readTime} min de lecture</p>
+	</div>
+</article>

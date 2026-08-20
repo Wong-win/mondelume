@@ -1,0 +1,45 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { categoryMap } from '../../data/categories';
+
+export async function getStaticPaths() {
+	const articles = await getCollection('articles');
+	return articles.map((article) => ({
+		params: { category: article.data.category, slug: article.id },
+		props: { article },
+	}));
+}
+
+interface Props { article: CollectionEntry<'articles'> }
+const { article } = Astro.props;
+const { Content } = await render(article);
+const category = categoryMap[article.data.category];
+const date = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(article.data.publishedAt);
+const related = (await getCollection('articles', ({ data, id }) => data.category === article.data.category && id !== article.id)).slice(0, 2);
+---
+
+<BaseLayout title={article.data.title} description={article.data.dek} image={article.data.coverImage}>
+	<article class="article-page">
+		<header class="article-header shell section-pad">
+			<p class="kicker"><a href={`/${category.slug}/`}>{category.label}</a> · {date}</p>
+			<h1>{article.data.title}</h1>
+			<p class="article-dek">{article.data.dek}</p>
+			<div class="article-meta"><p>Par {article.data.author}</p><p>{article.data.readTime} min de lecture</p></div>
+		</header>
+		<figure class="article-cover shell">
+			<img src={article.data.coverImage} alt={article.data.coverAlt} width="1800" height="1013" decoding="async" />
+		</figure>
+		<div class="article-content shell">
+			<aside><p>MondeLume</p><span>Éclairer l’art de vivre.</span></aside>
+			<div class="prose"><Content /></div>
+		</div>
+	</article>
+	{related.length > 0 && (
+		<section class="related shell section-pad">
+			<div class="section-heading"><p>Continuer</p><h2>Dans le même univers</h2></div>
+			<div class="related-grid">{related.map((item, index) => <ArticleCard article={item} index={index + 1} compact />)}</div>
+		</section>
+	)}
+</BaseLayout>

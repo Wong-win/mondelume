@@ -1,0 +1,167 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categories, categoryMap } from '../data/categories';
+
+const articles = (await getCollection('articles')).sort(
+	(a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
+);
+const lead = articles.find((article) => article.data.featured) ?? articles[0];
+const pool = articles.filter((article) => article.id !== lead.id);
+const heroSecondary = pool.slice(0, 3);
+const storyPool = pool.slice(3);
+const storySide = storyPool.slice(0, 2);
+const storyLead = storyPool[2] ?? pool[3];
+const latest = storyPool.slice(3, 8);
+const trending = pool.slice(1, 5);
+const leadCategory = categoryMap[lead.data.category];
+
+const articlePath = (article: (typeof articles)[number]) => {
+	const category = categoryMap[article.data.category];
+	return `/${category.slug}/${article.id}/`;
+};
+const formatDate = (date: Date, short = false) => new Intl.DateTimeFormat('fr-FR', {
+	day: 'numeric',
+	month: short ? 'short' : 'long',
+	year: short ? undefined : 'numeric',
+}).format(date);
+---
+
+<BaseLayout image={lead.data.coverImage}>
+	<section class="front-hero shell" aria-labelledby="front-lead-title">
+		<div class="front-hero-kicker">
+			<p>Le journal de l’art de vivre</p>
+			<p>Édition août 2026 · Paris</p>
+		</div>
+		<a class="front-hero-image" href={articlePath(lead)} aria-label={`Lire : ${lead.data.title}`}>
+			<img src={lead.data.coverImage} alt={lead.data.coverAlt} width="1800" height="1013" decoding="async" fetchpriority="high" />
+		</a>
+		<div class="front-hero-copy">
+			<p class="front-label"><a href={`/${leadCategory.slug}/`}>{leadCategory.label}</a><span>Le choix de la rédaction</span></p>
+			<div>
+				<h1 id="front-lead-title"><a href={articlePath(lead)}>{lead.data.title}</a></h1>
+				<p>{lead.data.dek}</p>
+			</div>
+			<a class="front-arrow-link" href={articlePath(lead)} aria-label={`Lire : ${lead.data.title}`}>Lire <span>→</span></a>
+		</div>
+
+		<div class="front-hero-deck" aria-label="Les autres choix de la rédaction">
+			{heroSecondary.map((article, index) => {
+				const category = categoryMap[article.data.category];
+				return (
+					<article class="front-deck-card">
+						<a class="front-deck-image" href={articlePath(article)} aria-label={`Lire : ${article.data.title}`}>
+							<img src={article.data.coverImage.replace('w=1800', 'w=520')} alt={article.data.coverAlt} width="520" height="347" loading="lazy" decoding="async" />
+						</a>
+						<div>
+							<p class="front-card-meta"><a href={`/${category.slug}/`}>{category.label}</a><span>0{index + 2}</span></p>
+							<h2><a href={articlePath(article)}>{article.data.title}</a></h2>
+						</div>
+					</article>
+				);
+			})}
+		</div>
+	</section>
+
+	<section class="front-stories shell front-section" aria-labelledby="front-stories-title">
+		<header class="front-section-heading">
+			<div><span>02</span><h2 id="front-stories-title">À la une</h2></div>
+			<p>Des idées à garder, des lieux à découvrir et des gestes qui changent le quotidien.</p>
+		</header>
+		<div class="front-stories-grid">
+			<div class="front-story-side">
+				{storySide.map((article) => {
+					const category = categoryMap[article.data.category];
+					return (
+						<article class="front-story-card">
+							<a href={articlePath(article)} aria-label={`Lire : ${article.data.title}`}>
+								<img src={article.data.coverImage.replace('w=1800', 'w=620')} alt={article.data.coverAlt} width="620" height="413" loading="lazy" decoding="async" />
+							</a>
+							<p class="front-card-meta"><a href={`/${category.slug}/`}>{category.label}</a><span>{formatDate(article.data.publishedAt, true)}</span></p>
+							<h3><a href={articlePath(article)}>{article.data.title}</a></h3>
+						</article>
+					);
+				})}
+			</div>
+
+			<article class="front-story-lead">
+				<a href={articlePath(storyLead)} aria-label={`Lire : ${storyLead.data.title}`}>
+					<img src={storyLead.data.coverImage.replace('w=1800', 'w=960')} alt={storyLead.data.coverAlt} width="960" height="540" loading="lazy" decoding="async" />
+				</a>
+				<p class="front-card-meta"><a href={`/${categoryMap[storyLead.data.category].slug}/`}>{categoryMap[storyLead.data.category].label}</a><span>{formatDate(storyLead.data.publishedAt, true)}</span></p>
+				<h3><a href={articlePath(storyLead)}>{storyLead.data.title}</a></h3>
+				<p>{storyLead.data.dek}</p>
+			</article>
+
+			<aside class="front-latest" aria-labelledby="front-latest-title">
+				<div class="front-latest-heading"><h3 id="front-latest-title">Le fil</h3><span>Mis à jour</span></div>
+				<ol>
+					{latest.map((article) => {
+						const category = categoryMap[article.data.category];
+						return (
+							<li>
+								<p><a href={`/${category.slug}/`}>{category.label}</a><span>{formatDate(article.data.publishedAt, true)}</span></p>
+								<h4><a href={articlePath(article)}>{article.data.title}</a></h4>
+							</li>
+						);
+					})}
+				</ol>
+			</aside>
+		</div>
+	</section>
+
+	<div class="front-trending-band">
+		<section class="front-trending shell" aria-labelledby="front-trending-title">
+			<header><p>En ce moment</p><h2 id="front-trending-title">Les plus lus</h2></header>
+			<div class="front-trending-grid">
+				{trending.map((article, index) => {
+					const category = categoryMap[article.data.category];
+					return (
+						<article>
+							<span>0{index + 1}</span>
+							<div>
+								<p><a href={`/${category.slug}/`}>{category.label}</a></p>
+								<h3><a href={articlePath(article)}>{article.data.title}</a></h3>
+							</div>
+						</article>
+					);
+				})}
+			</div>
+		</section>
+	</div>
+
+	<div class="front-topics">
+		{categories.map((category, categoryIndex) => {
+			const categoryArticles = articles.filter((article) => article.data.category === category.slug).slice(0, 5);
+			const categoryLead = categoryArticles[0];
+			const categoryMore = categoryArticles.slice(1);
+			return (
+				<section class="front-topic shell front-section" aria-labelledby={`topic-${category.slug}`}>
+					<header class="front-topic-heading">
+						<div><span>0{categoryIndex + 3}</span><h2 id={`topic-${category.slug}`}>{category.label}</h2></div>
+						<a href={`/${category.slug}/`}>Tout voir <span>→</span></a>
+					</header>
+					<div class="front-topic-grid">
+						<article class="front-topic-lead">
+							<a class="front-topic-image" href={articlePath(categoryLead)} aria-label={`Lire : ${categoryLead.data.title}`}>
+								<img src={categoryLead.data.coverImage.replace('w=1800', 'w=1100')} alt={categoryLead.data.coverAlt} width="1100" height="733" loading="lazy" decoding="async" />
+							</a>
+							<p class="front-card-meta"><span>À découvrir</span><span>{formatDate(categoryLead.data.publishedAt, true)}</span></p>
+							<h3><a href={articlePath(categoryLead)}>{categoryLead.data.title}</a></h3>
+							<p>{categoryLead.data.dek}</p>
+						</article>
+						{categoryMore.map((article) => (
+							<article class="front-topic-card">
+								<a class="front-topic-image" href={articlePath(article)} aria-label={`Lire : ${article.data.title}`}>
+									<img src={article.data.coverImage.replace('w=1800', 'w=620')} alt={article.data.coverAlt} width="620" height="413" loading="lazy" decoding="async" />
+								</a>
+								<p class="front-card-meta"><span>{article.data.readTime} min de lecture</span><span>{formatDate(article.data.publishedAt, true)}</span></p>
+								<h3><a href={articlePath(article)}>{article.data.title}</a></h3>
+							</article>
+						))}
+					</div>
+				</section>
+			);
+		})}
+	</div>
+</BaseLayout>

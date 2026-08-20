@@ -1,0 +1,17 @@
+---
+interface Props {
+	tone: 'terracotta' | 'sage' | 'cobalt' | 'butter' | 'rose';
+	category: string;
+	number?: string;
+	large?: boolean;
+}
+
+const { tone, category, number = 'ML', large = false } = Astro.props;
+---
+
+<div class:list={['cover-art', `tone-${tone}`, { large }]} aria-hidden="true">
+	<div class="cover-orbit"></div>
+	<div class="cover-disc"></div>
+	<p>{category}</p>
+	<strong>{number}</strong>
+</div>

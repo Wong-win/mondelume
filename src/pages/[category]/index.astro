@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { categories, type CategorySlug } from '../../data/categories';
+
+export function getStaticPaths() {
+	return categories.map((category) => ({
+		params: { category: category.slug },
+		props: { category },
+	}));
+}
+
+const { category } = Astro.props;
+const articles = (await getCollection('articles', ({ data }) => data.category === category.slug as CategorySlug)).sort(
+	(a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
+);
+---
+
+<BaseLayout title={category.label} description={category.description}>
+	<header class="category-hero shell section-pad">
+		<p class="category-number">{category.number} / 05</p>
+		<h1>{category.label}</h1>
+	</header>
+	<section class="shell category-articles section-pad">
+		<div class="section-heading row-heading">
+			<div><p>Dernières parutions</p><h2>À découvrir</h2></div>
+			<p>{articles.length} articles dans cette sélection.</p>
+		</div>
+		<div class="article-grid">
+			{articles.map((article, index) => <ArticleCard article={article} index={index + 1} />)}
+		</div>
+	</section>
+</BaseLayout>

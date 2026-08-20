@@ -1,0 +1,135 @@
+---
+import { getCollection } from 'astro:content';
+import { categories, categoryMap } from '../data/categories';
+
+const pathname = Astro.url.pathname;
+const searchArticles = (await getCollection('articles'))
+	.sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+	.map((article) => ({
+		title: article.data.title,
+		dek: article.data.dek,
+		category: categoryMap[article.data.category].label,
+		url: `/${article.data.category}/${article.id}/`,
+	}));
+---
+
+<header class="site-header editorial-header">
+	<div class="header-shell shell">
+		<a class="wordmark" href="/" aria-label="MondeLume, accueil">Monde<span>Lume</span></a>
+		<nav id="navigation" class="main-nav" aria-label="Navigation principale">
+			<div class="nav-inner">
+			{categories.map((category) => (
+				<a
+					href={`/${category.slug}/`}
+					aria-current={pathname.startsWith(`/${category.slug}`) ? 'page' : undefined}
+				>
+					{category.label}
+				</a>
+			))}
+			</div>
+		</nav>
+		<div class="header-actions">
+			<div class="site-search" data-site-search data-search-index={JSON.stringify(searchArticles)}>
+				<form class="site-search-form" role="search">
+					<label class="sr-only" for="site-search-input">Rechercher un article</label>
+					<input id="site-search-input" type="search" name="q" placeholder="Rechercher" autocomplete="off" spellcheck="false" aria-controls="site-search-results" aria-expanded="false" />
+					<button type="submit" aria-label="Lancer la recherche">→</button>
+				</form>
+				<div id="site-search-results" class="site-search-results" hidden>
+					<p aria-live="polite"></p>
+					<ul></ul>
+				</div>
+			</div>
+			<span>Édition 01</span>
+			<a class="menu-label" href="#navigation" aria-label="Aller à la navigation">
+				<span></span><span></span>
+				Menu
+			</a>
+		</div>
+	</div>
+</header>
+
+<script>
+	interface SearchArticle {
+		title: string;
+		dek: string;
+		category: string;
+		url: string;
+	}
+
+	const normalizeText = (value: string) => value
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLocaleLowerCase('fr');
+
+	document.querySelectorAll<HTMLElement>('[data-site-search]').forEach((search) => {
+		const form = search.querySelector<HTMLFormElement>('.site-search-form');
+		const input = search.querySelector<HTMLInputElement>('input[type="search"]');
+		const panel = search.querySelector<HTMLElement>('.site-search-results');
+		const status = panel?.querySelector<HTMLParagraphElement>('p');
+		const list = panel?.querySelector<HTMLUListElement>('ul');
+		const articles = JSON.parse(search.dataset.searchIndex ?? '[]') as SearchArticle[];
+		let matches: SearchArticle[] = [];
+
+		if (!form || !input || !panel || !status || !list) return;
+
+		const closeResults = () => {
+			panel.hidden = true;
+			input.setAttribute('aria-expanded', 'false');
+		};
+
+		const renderResults = () => {
+			const query = normalizeText(input.value.trim());
+			list.replaceChildren();
+			matches = [];
+
+			if (query.length < 2) {
+				closeResults();
+				return;
+			}
+
+			matches = articles.filter((article) => normalizeText(
+				`${article.title} ${article.dek} ${article.category}`,
+			).includes(query)).slice(0, 6);
+
+			status.textContent = matches.length
+				? `${matches.length} résultat${matches.length > 1 ? 's' : ''}`
+				: 'Aucun article trouvé';
+
+			matches.forEach((article) => {
+				const item = document.createElement('li');
+				const link = document.createElement('a');
+				const category = document.createElement('span');
+				const title = document.createElement('strong');
+
+				link.href = article.url;
+				category.textContent = article.category;
+				title.textContent = article.title;
+				link.append(category, title);
+				item.append(link);
+				list.append(item);
+			});
+
+			panel.hidden = false;
+			input.setAttribute('aria-expanded', 'true');
+		};
+
+		input.addEventListener('input', renderResults);
+		input.addEventListener('focus', renderResults);
+		input.addEventListener('keydown', (event) => {
+			if (event.key === 'Escape') {
+				input.value = '';
+				closeResults();
+				input.blur();
+			}
+		});
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+			if (matches[0]) window.location.assign(matches[0].url);
+			else renderResults();
+		});
+		document.addEventListener('click', (event) => {
+			if (!search.contains(event.target as Node)) closeResults();
+		});
+	});
+</script>

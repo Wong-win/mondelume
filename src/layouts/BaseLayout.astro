@@ -1,0 +1,46 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+	image?: string;
+}
+
+const {
+	title = 'MondeLume — Éclairer l’art de vivre',
+	description = 'Mode, beauté, voyage, maison, jardin et technologie : un regard curieux sur l’art de vivre contemporain.',
+	image,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const pageTitle = title === 'MondeLume — Éclairer l’art de vivre' ? title : `${title} — MondeLume`;
+---
+
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<meta name="theme-color" content="#f3eee5" />
+		<link rel="canonical" href={canonical} />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="MondeLume" />
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		{image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+		<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+		<title>{pageTitle}</title>
+	</head>
+	<body>
+		<a class="skip-link" href="#contenu">Aller au contenu</a>
+		<Header />
+		<main id="contenu"><slot /></main>
+		<Footer />
+	</body>
+</html>
