@@ -6,8 +6,8 @@ author: "Clara Moreau"
 publishedAt: "2026-08-20"
 readTime: 9
 featured: false
-coverImage: "https://images.unsplash.com/photo-1676517032135-8b3cbf40b179?auto=format&fit=crop&w=1800&q=82"
-coverAlt: "Gros plan sur des jambes enduites d'une substance blanche, lumière douce et propre"
+coverImage: "https://images.unsplash.com/photo-1763909129442-a9974881765f?auto=format&fit=crop&w=1800&q=82"
+coverAlt: "Un tube de gommage corporel posé sur un fond brun, lumière douce et naturelle"
 tone: "sage"
 ---
 

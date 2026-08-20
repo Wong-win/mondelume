@@ -6,8 +6,8 @@ author: "Clara Moreau"
 publishedAt: "2026-08-20"
 readTime: 9
 featured: false
-coverImage: "https://images.unsplash.com/photo-1664283229697-262efd828600?auto=format&fit=crop&w=1800&q=82"
-coverAlt: "Un plan de travail de cuisine garni de bocaux en verre remplis d'aliments secs, lumière chaude"
+coverImage: "https://images.unsplash.com/photo-1778410238722-b691772411aa?auto=format&fit=crop&w=1800&q=82"
+coverAlt: "Une étagère de cuisine garnie de bocaux en verre alignés, lumière naturelle et organisée"
 tone: "sage"
 ---
 

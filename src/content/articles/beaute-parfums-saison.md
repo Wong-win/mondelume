@@ -79,4 +79,4 @@ Le plaisir de cette rotation est difficile à expliquer mais facile à vivre. Po
 
 Au fond, c’est l’un des plaisirs simples du soin de soi. Comme on choisit sa musique selon le moment, comme on choisit son thé selon l’heure, on choisit son parfum selon la saison. Ce n’est pas une sophistication ; c’est une attention.
 
-![Des citrons coupés en deux sur une surface claire, lumière vive et fraîche évoquant l'été](https://images.unsplash.com/photo-1675237625689-292df6ee7fce?auto=format&fit=crop&w=1800&q=82)
+![Des citrons coupés en deux sur une surface claire, lumière vive et fraîche évoquant l'été](https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1800&q=82)

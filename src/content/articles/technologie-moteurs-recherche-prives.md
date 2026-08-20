@@ -6,8 +6,8 @@ author: "Clara Moreau"
 publishedAt: "2026-08-20"
 readTime: 9
 featured: false
-coverImage: "https://images.unsplash.com/photo-1700681802465-63aae555de29?auto=format&fit=crop&w=1800&q=82"
-coverAlt: "Un ordinateur portable ouvert avec un écran affichant un bouclier vert, ambiance numérique sécurisée"
+coverImage: "https://images.unsplash.com/photo-1654119895136-6aad918f412c?auto=format&fit=crop&w=1800&q=82"
+coverAlt: "Un ordinateur portable ouvert posé sur une table claire, lumière naturelle et ambiance de travail"
 tone: "cobalt"
 ---
 
