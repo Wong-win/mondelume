@@ -345,7 +345,7 @@ p, h1, h2, h3, blockquote { margin-top: 0; }
 .article-card { min-width: 0; }
 .card-art-wrap { margin-bottom: 19px; }
 .card-art-link { display: block; overflow: hidden; }
-.card-art-link img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform .5s cubic-bezier(.2,.8,.2,1); }
+.card-art-link img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; transition: transform .5s cubic-bezier(.2,.8,.2,1); }
 .card-art-link:hover img { transform: scale(1.02); }
 .eyebrow { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); margin-bottom: 11px; }
 .eyebrow a { color: var(--ink); }
@@ -361,7 +361,6 @@ p, h1, h2, h3, blockquote { margin-top: 0; }
 .article-card h3 a:hover { background-size: 100% 1px; }
 .dek { color: var(--muted); font-size: 14px; line-height: 1.55; margin-bottom: 16px; }
 .read-time { color: var(--muted); margin: 0; }
-.article-card.home .card-art-link img { aspect-ratio: 3 / 2; }
 .article-card.home h3 { max-width: 31ch; font-size: clamp(18px, 1.4vw, 21px); }
 .article-card.home .read-time { display: none; }
 

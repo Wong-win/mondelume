@@ -14,7 +14,7 @@ const category = categoryMap[article.data.category];
 const date = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(article.data.publishedAt);
 const cardImage = article.data.coverImage.replace('w=1800', compact ? 'w=600' : home ? 'w=720' : 'w=900');
 const imageWidth = compact ? 600 : home ? 720 : 900;
-const imageHeight = home ? 480 : compact ? 750 : 1125;
+const imageHeight = home ? 480 : compact ? 750 : 600;
 ---
 
 <article class:list={['article-card', { compact, home }]}>
