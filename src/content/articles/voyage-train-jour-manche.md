@@ -3,7 +3,7 @@ title: "De Paris à Londres en train de jour : la Manche comme on ne la voit jam
 dek: "Traverser l’Europe sans prendre l’avion : un voyage lent, lisible, qui commence dès le quai de départ."
 category: "travel"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-08-16"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1663712403806-3b179940202d?auto=format&fit=crop&w=1800&q=82"

@@ -3,7 +3,7 @@ title: "Choisir une liseuse qui donne vraiment envie de lire davantage"
 dek: "Écran, formats, bibliothèque et confort : les critères utiles pour trouver un appareil discret qui s’efface derrière les livres."
 category: "technology"
 author: "Hugo Perrin"
-publishedAt: "2026-08-19T16:00:00+03:00"
+publishedAt: "2026-05-31"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1676107779674-f77343861e81?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8a2luZGxlJTIwZS1yZWFkZXIlMjBkZXZpY2UlMjByZWFkaW5nfGVufDB8fHx8MTc4NzEzMDE4M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

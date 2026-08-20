@@ -3,7 +3,7 @@ title: "Réparer ses vêtements à la maison : les gestes qui sauvent une garde-
 dek: "Recoudre un bouton, fermer un accroc, raccourcir un ourlet : trois savoir-faire qui allongent la vie des vêtements qu'on aime."
 category: "fashion"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-04-18"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1681566716142-113ab88e0e40?auto=format&fit=crop&w=1800&q=82"

@@ -3,7 +3,7 @@ title: "Construire une garde-robe capsule qui vous ressemble vraiment"
 dek: "Une méthode concrète pour composer un vestiaire cohérent, polyvalent et personnel, sans transformer le minimalisme en uniforme."
 category: "fashion"
 author: "Élise Martin"
-publishedAt: "2026-08-18"
+publishedAt: "2026-04-22"
 readTime: 11
 featured: true
 coverImage: "https://images.unsplash.com/flagged/photo-1570733117311-d990c3816c47?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwY2Fwc3VsZSUyMHdhcmRyb2JlJTIwbmV1dHJhbCUyMGNsb3RoZXMlMjBlZGl0b3JpYWx8ZW58MXwwfHx8MTc4NzA2Mzc3MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

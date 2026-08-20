@@ -3,7 +3,7 @@ title: "Vers une cuisine zéro déchet : ce qui marche vraiment"
 dek: "Réduire ses déchets en cuisine n'est pas une discipline austère : c'est une série de gestes simples qui allègent à la fois la poubelle et le budget."
 category: "home-garden"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-03-02"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1778410238722-b691772411aa?auto=format&fit=crop&w=1800&q=82"

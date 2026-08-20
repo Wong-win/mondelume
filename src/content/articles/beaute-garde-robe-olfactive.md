@@ -3,7 +3,7 @@ title: "Composer une garde-robe olfactive sans collectionner les flacons"
 dek: "Trouver quelques parfums justes pour ses saisons, ses humeurs et ses gestes quotidiens, en apprenant surtout à mieux les sentir."
 category: "beauty"
 author: "Salomé Durand"
-publishedAt: "2026-08-12"
+publishedAt: "2026-01-05"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1615634260167-c8cdede054de?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwZXJmdW1lJTIwYm90dGxlcyUyMGVkaXRvcmlhbCUyMHN0aWxsJTIwbGlmZXxlbnwxfDB8fHwxNzg3MDYzNzc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

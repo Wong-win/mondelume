@@ -3,7 +3,7 @@ title: "Dessiner une cuisine conviviale, pensée pour les gestes et les invités
 dek: "Circulation, lumière, matières et rangements : les choix qui transforment la cuisine en lieu de préparation, de conversation et de partage."
 category: "home-garden"
 author: "Jeanne Rivière"
-publishedAt: "2026-08-05"
+publishedAt: "2026-02-26"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1512916194211-3f2b7f5f7de3?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHx3YXJtJTIwbW9kZXJuJTIwa2l0Y2hlbiUyMGludGVyaW9yJTIwd29vZHxlbnwxfDB8fHwxNzg3MDYzNzgzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

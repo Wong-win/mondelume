@@ -3,7 +3,7 @@ title: "Un week-end de déconnexion : mode d'emploi"
 dek: "Quarante-huit heures sans smartphone ni notifications : ce qui change, ce qui résiste, et comment revenir sans perdre le rythme."
 category: "technology"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-06-08"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1758438919146-f3f59a6d2544?auto=format&fit=crop&w=1800&q=82"

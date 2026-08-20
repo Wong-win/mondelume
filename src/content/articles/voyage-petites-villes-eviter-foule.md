@@ -3,7 +3,7 @@ title: "Voyager dans les villes secondaires : retrouver l'Europe sans la foule"
 dek: "Quand Barcelone, Venise ou Lisbonne deviennent irrespirables, d'autres villes offrent le même continent, sans les files d'attente."
 category: "travel"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-07-30"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1783353954021-bfa187f6760a?auto=format&fit=crop&w=1800&q=82"

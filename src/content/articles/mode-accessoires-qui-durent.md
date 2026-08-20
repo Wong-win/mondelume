@@ -3,7 +3,7 @@ title: "Les accessoires qui durent : choisir moins, choisir mieux"
 dek: "Sacs, ceintures, foulards, chaussures : les pièces qui structurent une silhouette méritent qu'on les achète avec attention."
 category: "fashion"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-04-05"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1451930487711-61b69e43af1e?auto=format&fit=crop&w=1800&q=82"

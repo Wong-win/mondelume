@@ -3,7 +3,7 @@ title: "Sauvegarder ses photos sans les abandonner dans un nuage numérique"
 dek: "Tri, noms de fichiers, copies et vérifications : une méthode durable pour retrouver ses images et ne pas dépendre d’un seul appareil."
 category: "technology"
 author: "Hugo Perrin"
-publishedAt: "2026-08-19T06:00:00+03:00"
+publishedAt: "2026-05-26"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1703756291643-df456ffc8079?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZXh0ZXJuYWwlMjBoYXJkJTIwZHJpdmUlMjBwaG90byUyMGJhY2t1cCUyMGNvbXB1dGVyfGVufDB8fHx8MTc4NzEzMDE4NHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

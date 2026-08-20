@@ -3,7 +3,7 @@ title: "Le pliage du linge : méthode, gestes, tiroirs qui restent en ordre"
 dek: "Une méthode de pliage transforme une corvée en rituel, et un tiroir bordélique en outil qu'on utilise sans y penser."
 category: "home-garden"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-03-10"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1786398018337-cf17a56fad25?auto=format&fit=crop&w=1800&q=82"

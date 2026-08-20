@@ -3,7 +3,7 @@ title: "Dessiner une entrée qui absorbe le désordre sans perdre son élégance
 dek: "Chaussures, manteaux, courrier et clés : organiser le seuil de la maison autour des gestes réels plutôt que des meubles parfaits."
 category: "home-garden"
 author: "Camille Renaud"
-publishedAt: "2026-08-19T06:30:00+03:00"
+publishedAt: "2026-03-06"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1749704008853-713f9064dbec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8b3JnYW5pemVkJTIwZW50cnl3YXklMjBpbnRlcmlvcnxlbnwwfHx8fDE3ODcxMzAxNjB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

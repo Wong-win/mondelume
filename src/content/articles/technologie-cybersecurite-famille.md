@@ -3,7 +3,7 @@ title: "La cybersécurité domestique : protéger sa famille sans la paralyser"
 dek: "Mots de passe, double authentification, sauvegardes, contrôles parentaux : les gestes concrets qui font la différence, expliqués sans jargon."
 category: "technology"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-06-04"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=1800&q=82"

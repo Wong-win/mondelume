@@ -3,7 +3,7 @@ title: "Choisir un appareil photo compact pour regarder autrement"
 dek: "Capteur, focale, viseur et ergonomie : les vrais critères pour trouver un appareil léger que l’on emportera et utilisera réellement."
 category: "technology"
 author: "Antoine Vidal"
-publishedAt: "2026-08-09"
+publishedAt: "2026-05-22"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1660718640799-de6bc85de676?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxjb21wYWN0JTIwY2FtZXJhJTIwc3RyZWV0JTIwcGhvdG9ncmFwaHklMjBsaWZlc3R5bGV8ZW58MXwwfHx8MTc4NzA2Mzc4NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

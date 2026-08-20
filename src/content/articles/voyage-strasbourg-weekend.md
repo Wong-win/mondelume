@@ -3,7 +3,7 @@ title: "Strasbourg en un week-end, des quais de l’Ill aux lignes de la Neustad
 dek: "Deux jours à pied et en tram pour lire la ville au-delà de la carte postale, entre patrimoine, quartiers vivants et pauses alsaciennes."
 category: "travel"
 author: "Julien Arnaud"
-publishedAt: "2026-08-19T17:00:00+03:00"
+publishedAt: "2026-08-07"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1757847751142-57ba17a94085?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8U3RyYXNib3VyZyUyMEZyYW5jZSUyMGNhbmFscyUyMHRyYXZlbHxlbnwwfHx8fDE3ODcxMzAxNTZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

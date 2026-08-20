@@ -3,7 +3,7 @@ title: "Construire une vie numérique calme sans disparaître du monde"
 dek: "Notifications, écran d’accueil, messages et temps de concentration : reprendre le contrôle par le design de son environnement numérique."
 category: "technology"
 author: "Antoine Vidal"
-publishedAt: "2026-08-14"
+publishedAt: "2026-07-04"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1609177336889-4e69aa3b1ff6?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwZGVzayUyMHNtYXJ0cGhvbmUlMjBjYWxtJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MDYzNzg0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

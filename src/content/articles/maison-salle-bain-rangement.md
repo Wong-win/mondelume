@@ -3,7 +3,7 @@ title: "Ranger la salle de bain : petit espace, vraie méthode"
 dek: "Trois mètres carrés, des produits envahissants, peu de rangements : comment transformer la salle de bain en un lieu lisible et agréable."
 category: "home-garden"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-04-01"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1721742736264-b39b85aeb6bc?auto=format&fit=crop&w=1800&q=82"

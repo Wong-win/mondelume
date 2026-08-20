@@ -3,7 +3,7 @@ title: "Trouver ses couleurs sans enfermer son style dans une saison"
 dek: "Une méthode sensible pour observer le teint, construire une palette et introduire la couleur dans le vestiaire sans règles rigides."
 category: "fashion"
 author: "Élise Martin"
-publishedAt: "2026-08-19T08:00:00+03:00"
+publishedAt: "2026-04-14"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sb3JmdWwlMjB3YXJkcm9iZSUyMGZhc2hpb258ZW58MHx8fHwxNzg3MTMwMTUzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

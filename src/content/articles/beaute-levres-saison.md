@@ -3,7 +3,7 @@ title: "Le soin des lèvres, saison par saison"
 dek: "Souvent oubliées du rituel beauté, les lèvres méritent une attention différente selon le climat et le moment de l'année."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-01-14"
 readTime: 8
 featured: false
 coverImage: "https://images.unsplash.com/photo-1596214387059-7691ab7c9b40?auto=format&fit=crop&w=1800&q=82"

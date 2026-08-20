@@ -3,7 +3,7 @@ title: "Le Luberon au ralenti : sept jours pour habiter le paysage"
 dek: "Un itinéraire d’une semaine entre villages, marchés, sentiers et tables provençales, avec moins de route et davantage de temps."
 category: "travel"
 author: "Julien Arnaud"
-publishedAt: "2026-08-06"
+publishedAt: "2026-07-21"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1597512432969-dd65354dba02?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxMdWJlcm9uJTIwUHJvdmVuY2UlMjB2aWxsYWdlJTIwbGFuZHNjYXBlJTIwc2xvdyUyMHRyYXZlbHxlbnwxfDB8fHwxNzg3MDYzNzc5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

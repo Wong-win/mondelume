@@ -3,7 +3,7 @@ title: "Composer une trousse de maquillage essentielle, lumineuse et vraiment ut
 dek: "Teint, couleurs, textures et outils : une méthode pour construire une petite sélection polyvalente sans multiplier les produits oubliés."
 category: "beauty"
 author: "Claire Delmas"
-publishedAt: "2026-08-19T17:30:00+03:00"
+publishedAt: "2026-01-22"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bWluaW1hbGlzdCUyMG1ha2V1cCUyMHByb2R1Y3RzfGVufDB8fHx8MTc4NzEzMDE1NHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

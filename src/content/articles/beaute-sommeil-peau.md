@@ -3,7 +3,7 @@ title: "Le sommeil, premier soin de la peau"
 dek: "Mieux dormir change la peau plus durablement que la plupart des crèmes : comprendre ce que la nuit accomplit, et ce que la fatigue lui retire."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-02-08"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?auto=format&fit=crop&w=1800&q=82"

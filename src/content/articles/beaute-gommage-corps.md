@@ -3,7 +3,7 @@ title: "Le gommage corps : fréquence, gestes, recettes"
 dek: "Moins agressif qu'on ne le croit, plus efficace qu'on ne l'imagine : repenser le gommage du corps pour en faire un geste doux et régulier."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-01-10"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1763909129442-a9974881765f?auto=format&fit=crop&w=1800&q=82"

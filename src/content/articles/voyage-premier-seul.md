@@ -3,7 +3,7 @@ title: "Premier voyage en solo : par où commencer, comment l'apprivoiser"
 dek: "Partir seul pour la première fois n'est ni un exploit ni une fuite : c'est un voyage qu'on fait autant vers soi que vers la destination."
 category: "travel"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-08-03"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1778472046432-4e1257f97bf6?auto=format&fit=crop&w=1800&q=82"

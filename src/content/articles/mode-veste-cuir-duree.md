@@ -3,7 +3,7 @@ title: "La veste en cuir, un achat qui se pense sur dix ans"
 dek: "Bien choisir sa première veste en cuir, l'entretenir pour qu'elle dure, accepter qu'elle change avec vous : trois étapes d'un même geste."
 category: "fashion"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-05-18"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1716295177956-420a647c83ac?auto=format&fit=crop&w=1800&q=82"

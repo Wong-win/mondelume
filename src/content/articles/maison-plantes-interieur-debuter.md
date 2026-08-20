@@ -3,7 +3,7 @@ title: "Débuter avec les plantes d'intérieur : choisir les bonnes, leur donner
 dek: "Trois plantes résistantes, deux ou trois gestes réguliers, et l'appartement change d'atmosphère sans devenir un enfer logistique."
 category: "home-garden"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-03-23"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1612543322525-f021384dc6a4?auto=format&fit=crop&w=1800&q=82"

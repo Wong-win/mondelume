@@ -3,7 +3,7 @@ title: "Choisir des chaussures qui durent et apprendre à les faire vivre"
 dek: "Forme, matière, rotation et réparations : un guide concret pour acheter moins de paires, mieux les porter et prolonger leur allure."
 category: "fashion"
 author: "Élise Martin"
-publishedAt: "2026-08-19T13:00:00+03:00"
+publishedAt: "2026-04-09"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c2hvZSUyMGNhcmUlMjBsZWF0aGVyJTIwZm9vdHdlYXJ8ZW58MHx8fHwxNzg3MTMwMTUyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

@@ -3,7 +3,7 @@ title: "Écouter un podcast comme on lit un livre : l'écoute active"
 dek: "Sortir de l'écoute en fond, retrouver l'attention : repenser sa relation aux podcasts pour en tirer vraiment quelque chose."
 category: "technology"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-06-30"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1728931710079-5fff6ae56b89?auto=format&fit=crop&w=1800&q=82"

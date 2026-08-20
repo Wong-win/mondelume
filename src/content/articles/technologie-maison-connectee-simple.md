@@ -3,7 +3,7 @@ title: "Construire une maison connectée simple, utile même sans téléphone à
 dek: "Éclairage, chauffage, capteurs et automatisations : une méthode progressive pour gagner en confort sans ajouter une nouvelle couche de complexité."
 category: "technology"
 author: "Hugo Perrin"
-publishedAt: "2026-08-19T11:00:00+03:00"
+publishedAt: "2026-06-17"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1558002038-1055907df827?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c21hcnQlMjBob21lJTIwaW50ZXJpb3IlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzEzMDE2Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

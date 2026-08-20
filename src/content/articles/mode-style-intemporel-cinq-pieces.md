@@ -3,7 +3,7 @@ title: "Cinq pièces pour s'habiller toute l'année sans s'ennuyer"
 dek: "Le mythe du dressing minimaliste a ses limites, mais quelques pièces bien choisies peuvent couvrir la majorité des situations."
 category: "fashion"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-05-09"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1521731610793-f6ec09461c4f?auto=format&fit=crop&w=1800&q=82"

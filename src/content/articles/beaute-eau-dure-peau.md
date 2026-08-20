@@ -3,7 +3,7 @@ title: "L'eau du robinet change la peau plus qu'on ne le croit"
 dek: "Dure, calcaire, chlorée : ce qui sort du robinet agit sur la peau et les cheveux au quotidien, bien avant les cosmétiques."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-01-01"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1697652973421-0d688f661d89?auto=format&fit=crop&w=1800&q=82"

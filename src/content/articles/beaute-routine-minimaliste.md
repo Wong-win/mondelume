@@ -3,7 +3,7 @@ title: "La routine beauté minimaliste qui tient vraiment dans le temps"
 dek: "Nettoyer, hydrater, protéger : construire une routine courte, lisible et agréable, adaptée à sa peau plutôt qu’aux tendances."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-17"
+publishedAt: "2026-02-04"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1566534268110-74c44e12e34d?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHw5fHxza2luY2FyZSUyMHNlcnVtJTIwcGVyZnVtZSUyMGJvdHRsZXMlMjBiZWF1dHklMjBzdGlsbCUyMGxpZmV8ZW58MXwwfHx8MTc4NzA2MzgzN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

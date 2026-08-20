@@ -3,7 +3,7 @@ title: "Mains et ongles : le rituel discret qui change toute l’allure"
 dek: "Hydrater, limer, protéger et choisir une couleur : des gestes simples pour des mains soignées sans transformer l’entretien en contrainte."
 category: "beauty"
 author: "Claire Delmas"
-publishedAt: "2026-08-19T12:30:00+03:00"
+publishedAt: "2026-01-18"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8aGFuZCUyMG5haWwlMjBjYXJlJTIwbWFuaWN1cmV8ZW58MHx8fHwxNzg3MTMwMTU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

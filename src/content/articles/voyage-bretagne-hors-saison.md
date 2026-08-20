@@ -3,7 +3,7 @@ title: "La côte bretonne hors saison, quand le paysage reprend toute la place"
 dek: "Marcher, dormir et manger au rythme de la météo sur un fragment de littoral, sans chercher à collectionner les caps."
 category: "travel"
 author: "Julien Arnaud"
-publishedAt: "2026-08-19T12:00:00+03:00"
+publishedAt: "2026-07-08"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1478309356856-8987a65b2a25?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8QnJpdHRhbnklMjBGcmFuY2UlMjBjb2FzdCUyMHRyYXZlbHxlbnwwfHx8fDE3ODcxMzAxNTd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

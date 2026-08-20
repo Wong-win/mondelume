@@ -3,7 +3,7 @@ title: "Créer un rituel de spa à la maison sans transformer la salle de bain"
 dek: "Lumière, chaleur, textures et temps calme : une parenthèse de soin réaliste avec ce que l’on possède déjà."
 category: "beauty"
 author: "Claire Delmas"
-publishedAt: "2026-08-19T07:30:00+03:00"
+publishedAt: "2026-02-13"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1709315610148-f4b341aed9d4?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8aG9tZSUyMHNwYSUyMGJhdGglMjByaXR1YWx8ZW58MHx8fHwxNzg3MTMwMTU2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

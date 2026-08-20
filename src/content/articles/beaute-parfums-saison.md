@@ -3,7 +3,7 @@ title: "Tourner ses parfums au rythme des saisons"
 dek: "Hesperidées au printemps, fleurs en été, bois en automne, épices en hiver : faire respirer sa palette olfactive comme on tourne sa garde-robe."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-01-27"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1800&q=82"

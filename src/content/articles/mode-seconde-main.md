@@ -3,7 +3,7 @@ title: "Seconde main : reconnaître la belle pièce et acheter sans se tromper"
 dek: "De la préparation à l’essayage, une méthode sensible et concrète pour chiner des vêtements que l’on portera vraiment."
 category: "fashion"
 author: "Nina Leblanc"
-publishedAt: "2026-08-08"
+publishedAt: "2026-05-05"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1759630752910-c4f9f628cf88?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwcmFjayUyMHNlY29uZCUyMGhhbmQlMjBib3V0aXF1ZXxlbnwxfDB8fHwxNzg3MDYzNzczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

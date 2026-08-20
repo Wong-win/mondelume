@@ -3,7 +3,7 @@ title: "Éclairer la maison pièce par pièce, sans vivre sous un plafonnier"
 dek: "Température, hauteur et zones d’usage : une méthode pour composer une lumière douce, précise et adaptable du matin au soir."
 category: "home-garden"
 author: "Camille Renaud"
-publishedAt: "2026-08-19T16:30:00+03:00"
+publishedAt: "2026-03-15"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1641232458416-feace752b346?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8d2FybSUyMGludGVyaW9yJTIwbGlnaHRpbmclMjBob21lfGVufDB8fHx8MTc4NzEzMDE1OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

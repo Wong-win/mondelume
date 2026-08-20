@@ -3,7 +3,7 @@ title: "Copenhague à vélo, apprendre le rythme de la ville avant de pédaler"
 dek: "Règles, itinéraires et pauses : un guide pour découvrir les quartiers de Copenhague sur deux roues sans gêner ceux qui y circulent chaque jour."
 category: "travel"
 author: "Julien Arnaud"
-publishedAt: "2026-08-19T07:00:00+03:00"
+publishedAt: "2026-07-12"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1577346895253-445f05a6670d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Q29wZW5oYWdlbiUyMGJpY3ljbGUlMjB0cmF2ZWwlMjBjaXR5fGVufDB8fHx8MTc4NzEzMDE1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

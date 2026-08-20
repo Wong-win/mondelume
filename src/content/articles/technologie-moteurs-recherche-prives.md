@@ -3,7 +3,7 @@ title: "Moteurs de recherche privés et extensions : reprendre la main sur sa na
 dek: "Quelques réglages simples suffisent à réduire considérablement ce que les moteurs, les annonceurs et les sites savent de vous."
 category: "technology"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-06-21"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1654119895136-6aad918f412c?auto=format&fit=crop&w=1800&q=82"

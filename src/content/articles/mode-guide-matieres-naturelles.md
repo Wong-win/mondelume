@@ -3,7 +3,7 @@ title: "Lin, laine, soie, coton : le guide sensible des matières naturelles"
 dek: "Comprendre la main, la tenue et l’entretien des fibres naturelles pour choisir des vêtements que l’on aura vraiment envie de garder."
 category: "fashion"
 author: "Nina Leblanc"
-publishedAt: "2026-08-13"
+publishedAt: "2026-04-27"
 readTime: 12
 coverImage: "https://images.unsplash.com/photo-1625471592808-3b848a6e9ffd?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxsaW5lbiUyMHdvb2wlMjBzaWxrJTIwY290dG9uJTIwbmF0dXJhbCUyMGZhYnJpY3MlMjBmYXNoaW9ufGVufDF8MHx8fDE3ODcwNjM3NzJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"
 coverAlt: "Étoffes naturelles pliées dans une gamme de verts et de bleus"

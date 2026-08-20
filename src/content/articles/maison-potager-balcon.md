@@ -3,7 +3,7 @@ title: "Cultiver un petit potager de balcon, généreux sans devenir envahissant
 dek: "Exposition, contenants, arrosage et récoltes : un plan réaliste pour faire pousser herbes et légumes dans quelques mètres carrés."
 category: "home-garden"
 author: "Camille Renaud"
-publishedAt: "2026-08-19T11:30:00+03:00"
+publishedAt: "2026-03-28"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1786072558550-93423e8d9a34?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8YmFsY29ueSUyMGhlcmIlMjBnYXJkZW58ZW58MHx8fHwxNzg3MTMwMTYwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

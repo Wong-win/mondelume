@@ -3,7 +3,7 @@ title: "Petits espaces : agrandir la sensation plutôt que pousser les murs"
 dek: "Circulation, lumière, rangements et meubles justes : une méthode pièce par pièce pour rendre un petit intérieur réellement généreux."
 category: "home-garden"
 author: "Jeanne Rivière"
-publishedAt: "2026-08-15"
+publishedAt: "2026-03-19"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxzbWFsbCUyMGFwYXJ0bWVudCUyMGludGVyaW9yJTIwZGVzaWduJTIwbmF0dXJhbCUyMGxpZ2h0fGVufDF8MHx8fDE3ODcwNjM3ODB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

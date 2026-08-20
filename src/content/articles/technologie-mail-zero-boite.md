@@ -3,7 +3,7 @@ title: "Atteindre la boîte de réception vide : méthode, pas miracle"
 dek: "Inbox Zero n'est pas une discipline mystique : c'est une série de réflexes qui transforment le mail en outil et non en source d'anxiété."
 category: "technology"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-06-13"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1643576780370-446e11ce5900?auto=format&fit=crop&w=1800&q=82"

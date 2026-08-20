@@ -3,7 +3,7 @@ title: "Le tailleur souple, ou l’art d’être élégant sans se sentir dégui
 dek: "Veste déstructurée, pantalon fluide et détails précis : comment adopter le tailoring au quotidien sans sacrifier le mouvement ni la personnalité."
 category: "fashion"
 author: "Élise Martin"
-publishedAt: "2026-08-19T18:00:00+03:00"
+publishedAt: "2026-05-14"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1619473792839-1d3b0355a7c8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c29mdCUyMHRhaWxvcmluZyUyMG91dGZpdHxlbnwwfHx8fDE3ODcxMzAxNTF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

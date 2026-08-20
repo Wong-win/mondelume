@@ -3,7 +3,7 @@ title: "Choisir des objets technologiques réparables et les faire durer"
 dek: "Batterie, pièces, logiciel et documentation : un guide pratique pour acheter moins souvent, entretenir mieux et réparer au bon moment."
 category: "technology"
 author: "Antoine Vidal"
-publishedAt: "2026-08-04"
+publishedAt: "2026-06-25"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1588515603068-adb330f26e92?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxlbGVjdHJvbmljcyUyMHJlcGFpciUyMHdvcmtiZW5jaCUyMHN1c3RhaW5hYmxlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg3MDYzNzg2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

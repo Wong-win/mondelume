@@ -3,7 +3,7 @@ title: "Construire une bibliothèque personnelle qui vous ressemble"
 dek: "Au-delà du rangement : choisir, classer et présenter ses livres pour qu’une étagère devienne un objet de vie."
 category: "home-garden"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-02-21"
 readTime: 10
 featured: false
 coverImage: "https://images.unsplash.com/photo-1543248939-4296e1fea89b?auto=format&fit=crop&w=1800&q=82"

@@ -3,7 +3,7 @@ title: "Créer un jardin économe en eau, vivant en toute saison"
 dek: "Observer le sol, choisir des plantes adaptées et arroser avec précision pour composer un jardin résilient plutôt qu’un décor assoiffé."
 category: "home-garden"
 author: "Jeanne Rivière"
-publishedAt: "2026-08-10"
+publishedAt: "2026-02-17"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1760574152812-446463182358?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxNZWRpdGVycmFuZWFuJTIwZHJvdWdodCUyMHRvbGVyYW50JTIwZ2FyZGVuJTIwcGxhbnRzfGVufDF8MHx8fDE3ODcwNjM3ODF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

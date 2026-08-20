@@ -3,7 +3,7 @@ title: "Un rituel cheveux simple, du cuir chevelu jusqu’aux pointes"
 dek: "Espacer les gestes inutiles, mieux laver, protéger les longueurs et construire une routine capillaire adaptée à sa vraie texture."
 category: "beauty"
 author: "Clara Moreau"
-publishedAt: "2026-08-07"
+publishedAt: "2026-01-31"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1758523672300-500f7148726c?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwaGFpciUyMGNhcmUlMjBzYWxvbiUyMG5hdHVyYWwlMjBiZWF1dHl8ZW58MXwwfHx8MTc4NzA2Mzc3Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

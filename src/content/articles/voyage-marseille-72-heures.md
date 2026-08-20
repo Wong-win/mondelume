@@ -3,7 +3,7 @@ title: "Marseille en 72 heures, entre ville ouverte et horizon bleu"
 dek: "Un itinéraire à pied et en transports pour goûter le Vieux-Port, les quartiers habités, les rochers et la cuisine marseillaise sans courir."
 category: "travel"
 author: "Julien Arnaud"
-publishedAt: "2026-08-16"
+publishedAt: "2026-07-25"
 readTime: 11
 featured: false
 coverImage: "https://images.unsplash.com/photo-1566838217578-1903568a76d9?ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxNYXJzZWlsbGUlMjBGcmFuY2UlMjBjb2FzdCUyMG9sZCUyMHBvcnQlMjB0cmF2ZWx8ZW58MXwwfHx8MTc4NzA2Mzc3N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=82"

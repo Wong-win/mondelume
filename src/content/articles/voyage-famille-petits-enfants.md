@@ -3,7 +3,7 @@ title: "Voyager avec de jeunes enfants : bien préparer pour profiter vraiment"
 dek: "Le voyage en famille change de rythme mais ne s'arrête pas : quelques principes simples permettent de l'aborder sans drame."
 category: "travel"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-07-17"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?auto=format&fit=crop&w=1800&q=82"

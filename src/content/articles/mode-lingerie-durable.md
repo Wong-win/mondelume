@@ -3,7 +3,7 @@ title: "La lingerie durable : choisir mieux, porter plus longtemps"
 dek: "Moins de pièces, mieux choisies, mieux entretenues : repenser son tiroir de lingerie comme on repense sa garde-robe."
 category: "fashion"
 author: "Clara Moreau"
-publishedAt: "2026-08-20"
+publishedAt: "2026-05-01"
 readTime: 9
 featured: false
 coverImage: "https://images.unsplash.com/photo-1594631775771-890a902ae42d?auto=format&fit=crop&w=1800&q=82"
