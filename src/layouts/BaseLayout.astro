@@ -27,7 +27,6 @@ const pageTitle = title === 'MondeLume — Éclairer l’art de vivre' ? title :
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<meta name="theme-color" content="#f3eee5" />
-		<link rel="canonical" href={canonical} />
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content="MondeLume" />
 		<meta property="og:title" content={pageTitle} />
@@ -35,8 +34,19 @@ const pageTitle = title === 'MondeLume — Éclairer l’art de vivre' ? title :
 		<meta property="og:url" content={canonical} />
 		{image && <meta property="og:image" content={new URL(image, Astro.site)} />}
 		<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
-		<title>{pageTitle}</title>
-	</head>
+		    <link rel="canonical" href={new URL(Astro.url.pathname, `https://www.mondelume.com`)} />
+    <title>{pageTitle}</title>
+      
+    
+      <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-LME5FHDG3C"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LME5FHDG3C');
+    </script>
+  </head>
 	<body>
 		<a class="skip-link" href="#contenu">Aller au contenu</a>
 		<Header />
