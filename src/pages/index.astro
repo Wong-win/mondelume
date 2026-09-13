@@ -4,7 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { categories, categoryMap } from '../data/categories';
 
 const articles = (await getCollection('articles')).sort(
-	(a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf(),
+	(a, b) => {
+		// Featured articles always sort to the top, then by publishedAt descending
+		const af = a.data.featured ? 1 : 0; const bf = b.data.featured ? 1 : 0;
+		if (af !== bf) return bf - af;
+		return b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf();
+	},
 );
 const lead = articles.find((article) => article.data.featured) ?? articles[0];
 const pool = articles.filter((article) => article.id !== lead.id);
