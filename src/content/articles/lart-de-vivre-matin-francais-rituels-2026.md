@@ -5,7 +5,6 @@ category: "home-garden"
 author: "Salomé Durand"
 publishedAt: "2026-09-13"
 readTime: 11
-featured: true
 coverImage: "https://images.unsplash.com/photo-1530268430791-f7d3be9b5f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzIzODl8MHwxfHNlYXJjaHwxfHxmcmVuY2glMjBtb3JuaW5nJTIwcml0dWFscyUyMGNvZmZlZXxlbnwwfDB8fHwxNzg5Mjk3NDI5fDA&ixlib=rb-4.1.0&q=82&w=1800"
 coverAlt: "Une tasse de café noir posée sur une table en bois près d'une fenêtre, lumière douce du matin"
 tone: "terracotta"
